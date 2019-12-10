@@ -9,7 +9,7 @@ include_once "header.php";
         <h1>Stage Projecten</h1>
         <p>Je bent nu op de projecten pagina beland. op deze pagina staan alle projecten en opdrachten
             die ik heb uitgevoerd op stage. Hier Staan projecten in die in opdracht waren voor stage, en
-            projecten die ik tijdens stage heb gemaakt om bepaalde talen en functies uit te proberen.</p>
+            projecten die ik tijdens stage heb gemaakt om bepaalde talen en functies uit te proberen. </p>
     </div>
 
     <div id="div_een"><!-- dit is de 1e div -->
@@ -22,13 +22,17 @@ include_once "header.php";
             denk hierbij aan het updaten van alle computers in het bedrijf. voor een opsomming wat ik
             allemaal heb
             gedaan klik dan op de onderstaande knop.</p>
-        <button class="klik_een" name="klik_een" onclick="hide_div()">klik</button>
+        <button class="klik_een" name="klik_een" onclick="hide_div()">klik</button><!-- verander div knop -->
     </div>
 
     <div id="div_twee" style="display: none"><!-- dit is de 2e div -->
-        <h1>Opsomming</h1>
-        <p>Hier is een opsomming van wat ik allemaal heb gedaan en wat ik ervan geleerd heb.</p>
-        <h3>Programmeer Talen</h3>
+        <h1>Opsomming</h1> <!-- opsomming -->
+        <p>Hier is een opsomming van wat ik allemaal heb gedaan en wat ik ervan geleerd heb. Als je meer wilt
+            weten over een onderwerp klik dan op het kopje. Je wordt dan omgeleid naar een andere pagina met
+            uitgebreide uitleg.
+        </p>
+
+        <h3>Programmeer Talen</h3> <!-- programmeer talen -->
         <p>Tijdens stage zijn er veel programmeer talen voorbij gekomen. Ik heb zelf een boek gekocht
             met daarin een uitgebreide uitleg over PHP. Mijn stagebegeleiders lieten mij de tijd nemen om
             dit door te nemen. Ik heb uit dat boek ook veel geleerd. Ook zijn door de verschillende opdrachten
@@ -42,9 +46,19 @@ include_once "header.php";
         gebruikt. Verder zijn er nog een aantal talen die van pas zijn gekomen maar die zijn niet heel relevant
         om op te noemen. Ik heb er uiteraard wel wat van opgestoken.
         </p>
-        <h3>Computer Skills</h3>
+        <h3>Computer Skills</h3><!-- computer skills -->
+        <p>Ik heb tijdens mijn stage ook veel geleerd over het omgaan met een computer. Ik heb een aantal updates
+            uitgevoerd op de Vaste computers. Ook heb ik een aantal computers "ready to use" gemaakt voor nieuwe
+            stagaires
+            of collega's. Ook heb ik tijdens mijn stage geleerd hoe ik een computer kan bouwen en wat alles inhoud.</p>
+        <h3>Kantoorbaan?</h3>
+        <p>Ook een belangrijk onderdeel wat heb ik heb geleerd tijdens stage, is wat een kantoorbaan inhoudt. Ik vond
+            het een bijzondere ervaring, omdat stage een goed beeld geeft van hoe het leven is na school. </p>
 
         <button class="klik_twee" name="klik_twee" value="klik" onclick="show_div()">klik</button>
+        <!-- verander div knop -->
+        <label class="naar_boven" onclick="topFunction()">naar boven <i class="fas fa-long-arrow-alt-up"></i></label>
+        <!-- naar boven knop -->
     </div>
 
 </main>
@@ -62,6 +76,11 @@ include_once "navigation.php";
     function show_div() {
         document.getElementById("div_een").style.display = "block";
         document.getElementById("div_twee").style.display = "none";
+    }
+
+    function topFunction() {
+        document.body.scrollTop = 0; //safari
+        document.documentElement.scrollTop = 0;
     }
 </script>
 
