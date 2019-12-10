@@ -12,7 +12,7 @@ include_once "header.php";
             projecten die ik tijdens stage heb gemaakt om bepaalde talen en functies uit te proberen.</p>
     </div>
 
-    <div id="div_een" ><!-- dit is de 1e div -->
+    <div id="div_een"><!-- dit is de 1e div -->
         <h1>Leer doelen</h1>
         <p>Tijdens stage heb ik veel leermomenten gehad. Mijn stagebegeleiders lieten mij veel nieuwe dingen
             uitproberen, en gaven hier goede uitleg en tips bij. Ik heb niet alleen nieuwe dingen geleerd op
@@ -22,13 +22,29 @@ include_once "header.php";
             denk hierbij aan het updaten van alle computers in het bedrijf. voor een opsomming wat ik
             allemaal heb
             gedaan klik dan op de onderstaande knop.</p>
-            <button class="klik_een" name="klik_een" onclick="hide_div()">klik</button>
+        <button class="klik_een" name="klik_een" onclick="hide_div()">klik</button>
     </div>
 
     <div id="div_twee" style="display: none"><!-- dit is de 2e div -->
-        <h1>hallo</h1>
-        <p>dit is mijn div</p>
-            <button class="klik_twee" name="klik_twee" value="klik" onclick="show_div()">klik</button>
+        <h1>Opsomming</h1>
+        <p>Hier is een opsomming van wat ik allemaal heb gedaan en wat ik ervan geleerd heb.</p>
+        <h3>Programmeer Talen</h3>
+        <p>Tijdens stage zijn er veel programmeer talen voorbij gekomen. Ik heb zelf een boek gekocht
+            met daarin een uitgebreide uitleg over PHP. Mijn stagebegeleiders lieten mij de tijd nemen om
+            dit door te nemen. Ik heb uit dat boek ook veel geleerd. Ook zijn door de verschillende opdrachten
+            verschillende talen van pas geweest waarvan ik een paar voor het eerst heb gebruikt. voorbeelden zijn.
+        <ul>
+            <li style="color: #6cc24a; font-weight: bold;">Node</li>
+            <li style="color: purple; font-weight: bold;">PHP</li>
+            <li style="color: yellow; font-weight: bold;">Javascript</li>
+        </ul>
+        PHP en Javascript zijn talen die ik voorheen ook heb geprobeerd. Maar ik heb ze nooit in de praktijk
+        gebruikt. Verder zijn er nog een aantal talen die van pas zijn gekomen maar die zijn niet heel relevant
+        om op te noemen. Ik heb er uiteraard wel wat van opgestoken.
+        </p>
+        <h3>Computer Skills</h3>
+
+        <button class="klik_twee" name="klik_twee" value="klik" onclick="show_div()">klik</button>
     </div>
 
 </main>
@@ -43,7 +59,7 @@ include_once "navigation.php";
         document.getElementById("div_twee").style.display = "block";
     }
 
-    function show_div(){
+    function show_div() {
         document.getElementById("div_een").style.display = "block";
         document.getElementById("div_twee").style.display = "none";
     }
