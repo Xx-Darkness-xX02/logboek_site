@@ -1,0 +1,45 @@
+:root {
+    --orange: #EC6302;
+    --light_grey: #E7E3DF;
+    --darker_grey: #BFBAB5;
+    --dark_grey: #48474C;
+}
+
+body {
+    margin: 0;
+}
+
+div.intro {
+    background-color: var(--orange);
+    color: white;
+    font-family: 'montserrat', sans-serif;
+    padding: 10px;
+    line-height: 1.6;
+}
+
+div.intro h1 {
+    margin-top: 0;
+}
+
+div#div_een, div#div_twee {
+    background-color: var(--darker_grey);
+    color: white;
+    padding: 10px;
+    font-family: 'montserrat', sans-serif;
+    line-height: 1.6;
+}
+
+div#div_een button, div#div_twee button {
+    border: none;
+    background-color: var(--orange);
+    color: white;
+    font-family: 'montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    height: 30px;
+    width: 90px;
+}
+
+div#div_een button:hover , div#div_twee button:hover {
+
+}

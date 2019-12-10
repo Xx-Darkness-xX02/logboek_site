@@ -53,7 +53,4 @@ require_once "header.php";
                 te passen op leuke opdrachtjes.</p>
         </div>
     </main>
-
-<?php
-require_once "footer.php";
-?>
+</body>

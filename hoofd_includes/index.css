@@ -19,6 +19,7 @@ div#intro {
     background-color: var(--orange);
     padding: 10px;
     color: white;
+    line-height: 1.6;
 }
 
 div#intro h1 {
@@ -120,6 +121,7 @@ div#rol_stage {
     color: white;
     padding: 10px;
     font-family: 'montserrat', sans-serif;
+    line-height: 1.6;
 }
 
 div#rol_stage h1 {
@@ -131,6 +133,7 @@ div#leerdoelen {
     color: white;
     font-family: 'montserrat', sans-serif;
     padding: 10px;
+    line-height: 1.6;
 }
 
 span.groen {

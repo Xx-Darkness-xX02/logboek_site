@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --orange: #EC6302;
+    --light_grey: #E7E3DF;
+    --darker_grey: #BFBAB5;
+    --dark_grey: #48474C;
+}
+
+/* header styling */
+header {
+    background-color: var(--darker_grey);
+    height: 50px;
+    width: 100%;
+    display: inline-block;
+}
+
+header img {
+    height: 50px;
+    width: 100px;
+    border: 1px solid black;
+}
+
+header span div.hamburger {
+    background-color: var(--dark_grey);
+    height: 50px;
+    width: 50px;
+    padding: 12px;
+    display: inline-block;
+    float: right;
+    transition: 0.5s;
+}
+
+header span i {
+    float: right;
+    font-size: 30px;
+    color: var(--light_grey);
+    transition: 0.5s;
+}
+
+header span div.hamburger:hover {
+    background-color: var(--light_grey);
+}
+
+header span i:hover{
+    color: var(--dark_grey);
+}
+/* einde header styling */
+
+/* The overlay */
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 1s;
+}
+
+/* positie van de content */
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top:30px;
+}
+
+/* navigatie links binnen de overlay */
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+/* hover kleur linkjes */
+.overlay a:hover .overlay a:focus {
+    color: #f1f1f1;
+}
+
+/* de close button op de goed plek */
+.overlay.closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+/* mediaquery voor telefoon */
+@media all and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+/* einde The overlay */
