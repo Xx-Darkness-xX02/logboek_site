@@ -23,9 +23,9 @@
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> <!-- close button -->
 
     <div class="overlay-content"> <!-- content -->
-        <a href="#">Home</a>
+        <a href="index.php">Home</a>
         <a href="pages/projecten.php">Projecten</a>
-        <a href="#">Gegevens</a>
+        <a href="pages/gegevens.php">Gegevens</a>
         <a href="#">Contact</a>
     </div> <!-- einde content -->
 

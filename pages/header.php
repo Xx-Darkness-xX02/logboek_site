@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="page_includes/header.css">
+    <script type="text/javascript" src="page_includes/gegevens.js"></script>
     <script type="text/javascript" src="page_includes/projecten.js"></script>
     <script type="text/javascript" src="page_includes/header.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
@@ -25,8 +26,8 @@
 
     <div class="overlay-content"> <!-- content -->
         <a href="../index.php">Home</a>
-        <a href="#">Projecten</a>
-        <a href="#">Gegevens</a>
+        <a href="projecten.php">Projecten</a>
+        <a href="gegevens.php">Gegevens</a>
         <a href="#">Contact</a>
     </div> <!-- einde content -->
 

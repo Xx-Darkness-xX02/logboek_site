@@ -17,7 +17,7 @@ require_once "header.php";
         <div id="blokjes">
             <a href="index.php"> <i class="fas fa-home"></i> </a>
             <a href="pages/projecten.php"> <i class="fas fa-project-diagram"></i> </a>
-            <a href="#"> <i class="fas fa-user geen_margin"></i> </a>
+            <a href="pages/gegevens.php"> <i class="fas fa-user geen_margin"></i> </a>
             <a href="#"> <i class="fas fa-phone geen_margin"></i> </a>
         </div>
 
