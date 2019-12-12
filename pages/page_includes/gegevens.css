@@ -34,14 +34,19 @@ div#gegevens h4 {
     font-weight: 700;
 }
 
-div#gegevens button {
+div#gegevens button, div#eindproducten button {
     border: none;
     padding: 10px;
     font-family: 'montserrat', sans-serif;
     background-color: var(--darker_grey);
 }
 
-div#gegevens button:hover {
+div#eindproducten button {
+    background-color: var(--orange);
+    color:white;
+}
+
+div#gegevens button:hover, div#eindproducten button:hover {
     border: #202020 1px solid;
     background-color: #818181;
     color: white;
@@ -66,4 +71,22 @@ div#voorbereiding {
 
 div#voorbereiding h1 {
     margin-top: 0;
+}
+
+div#eindproducten {
+    background-color: var(--darker_grey);
+    padding: 15px;
+    color: white;
+    font-family: 'montserrat', sans-serif;
+    line-height: 1.6;
+}
+
+div#eindproducten h1 {
+    margin-top: 0;
+}
+
+div#eindproducten img {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }

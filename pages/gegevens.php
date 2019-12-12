@@ -74,8 +74,14 @@ include_once "header.php";
 
     <div id="eindproducten" style="margin-bottom: 60px;">
         <h1>eindproducten</h1>
-        <p>Veel van mijn opdrachten waren het helpen van collega's zoals eerder beschreven. Ik heb wel een volledige opdracht
-        gemaakt. Dit was een E-Mail footer generator.</p>
+        <p>zoals eerder beschreven waren Veel van mijn opdrachten het helpen van collega's of externe. Ik heb wel een volledige opdracht
+        gemaakt. Dit was een E-Mail footer generator. Deze opdracht is gerbuikt in de wiki van het bedrijf.</p>
+        <img id="generator" src="page_img/generator.png" alt="" style="display: inline-block">
+        <img id="resultaat" src="page_img/result.png" alt="" style="display: none;">
+        <div id="uitleg" style="display: block;">
+            <p>wil je zien wat er gebeurt als je de lijst invult klik dan op de onderstaande knop.</p>
+        </div>
+        <button id="less" onclick="read_less()">resultaat</button>
     </div>
 </main>
 <?php

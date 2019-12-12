@@ -48,3 +48,21 @@ function read_More(){
         moreText.style.display = "inline";
     }
 }
+
+// eind producten image veranderen
+
+function read_less() {
+    var text = document.getElementById("uitleg");
+    var generator = document.getElementById("generator");
+    var resultaat = document.getElementById("resultaat");
+
+    if(text.style.display === "block") {
+        text.style.display = "none";
+        generator.style.display = "none";
+        resultaat.style.display = "inline-block";
+    } else {
+        text.style.display = "block";
+        generator.style.display = "inline-block";
+        resultaat.style.display = "none";
+    }
+}
