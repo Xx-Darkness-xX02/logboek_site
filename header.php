@@ -26,7 +26,7 @@
         <a href="index.php">Home</a>
         <a href="pages/projecten.php">Projecten</a>
         <a href="pages/gegevens.php">Gegevens</a>
-        <a href="#">Contact</a>
+        <a href="pages/stage.php">Stage Info</a>
     </div> <!-- einde content -->
 
 </div><!-- einde overlay -->

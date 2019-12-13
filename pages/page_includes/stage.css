@@ -1,0 +1,55 @@
+:root {
+    --orange: #EC6302;
+    --light_grey: #E7E3DF;
+    --darker_grey: #BFBAB5;
+    --dark_grey: #48474C;
+}
+
+body {
+    margin: 0;
+}
+
+div#intro {
+    font-family: 'montserrat', sans-serif;
+    color:white;
+    background-color: var(--orange);
+    line-height: 1.6;
+    padding: 15px;
+}
+
+div#intro h1 {
+    margin: 0;
+}
+
+div#stage_gevonden {
+    color: white;
+    line-height: 1.6;
+    background-color: var(--darker_grey);
+    font-family: 'montserrat', sans-serif;
+    padding: 15px;
+}
+
+div#stage_gevonden h1 {
+    margin: 0;
+}
+
+div#stage_uitleg {
+    color: white;
+    background-color: var(--orange);
+    line-height: 1.6;
+    font-family: 'montserrat', sans-serif;
+    padding: 15px;
+}
+
+div#stage_uitleg h1 {
+    margin: 0;
+}
+
+div#stage_producten {
+    background-color: var(--darker_grey);
+    color: white;
+    padding: 15px;
+    font-family: 'montserrat', sans-serif;
+    line-height: 1.6;
+}
+
