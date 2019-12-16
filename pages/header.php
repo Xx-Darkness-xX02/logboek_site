@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="page_includes/header.css">
+    <link rel="stylesheet" href="page_includes/evaluatie.css">
     <script type="text/javascript" src="page_includes/gegevens.js"></script>
     <script type="text/javascript" src="page_includes/projecten.js"></script>
     <script type="text/javascript" src="page_includes/header.js"></script>
@@ -29,6 +30,7 @@
         <a href="projecten.php">Projecten</a>
         <a href="gegevens.php">Gegevens</a>
         <a href="stage.php">Stage Info</a>
+        <a href="evaluatie.php">evaluatie</a>
     </div> <!-- einde content -->
 
 </div><!-- einde overlay -->

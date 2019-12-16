@@ -4,7 +4,7 @@ include_once "header.php";
     <link rel="stylesheet" href="page_includes/stage.css">
     <main>
         <div id="intro">
-            <h1>Stage Evaluatie</h1>
+            <h1>Stage Bedrijf</h1>
             <p>Je bent nu op de stage pagina beland waar alle info over het verloop en het stagebedrijf staan. </p>
         </div>
 

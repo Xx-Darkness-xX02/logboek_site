@@ -1,0 +1,35 @@
+:root {
+    --orange: #EC6302;
+    --light_grey: #E7E3DF;
+    --darker_grey: #BFBAB5;
+    --dark_grey: #48474C;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+div#intro {
+    background-color: var(--orange);
+    color: white;
+    line-height: 1.6;
+    padding: 15px;
+    font-family: 'montserrat', sans-serif;
+}
+
+div#intro h1 {
+    margin: 0;
+}
+
+div#bereikte_leerdoelen {
+    margin-bottom: 60px;
+    padding: 15px;
+    color: white;
+    background-color: var(--darker_grey);
+    font-family: 'montserrat', sans-serif;
+    line-height: 1.6;
+}

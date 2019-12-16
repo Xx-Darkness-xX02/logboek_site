@@ -27,6 +27,7 @@
         <a href="pages/projecten.php">Projecten</a>
         <a href="pages/gegevens.php">Gegevens</a>
         <a href="pages/stage.php">Stage Info</a>
+        <a href="pages/evaluatie.php">evaluatie</a>
     </div> <!-- einde content -->
 
 </div><!-- einde overlay -->

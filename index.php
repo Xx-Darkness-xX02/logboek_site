@@ -6,12 +6,10 @@ require_once "header.php";
     <script type="text/javascript" src="hoofd_includes/header.js"></script>
     <main>
         <div id="intro">
-            <h1>Logboek</h1>
-            <p>Dit is mijn persoonlijke logboek site. Hier staan al mijn projecten in die ik over de afgelopen
-                schooljaar(en)
-                heb gemaakt. Ook staan opdrachten die ik tijdens stage heb gemaakt hiertussen. Verder staan mijn stage
-                gegevens
-                hier ook op deze site.</p>
+            <h1>Stage Verslag</h1>
+            <p>Dit is mijn stage verslag. Je kunt hier alles over mijn stage vinden. Ik heb de aangegeven opbouw iets
+            aangepast omdat er veel informatie is en ik het niet onoverzichtelijk wil maken. Bij het inleveren heb ik
+            het opdracht vel erbij ingeleverd waarop staat waar je wat kunt vinden. </p>
         </div>
 
         <div id="blokjes">
