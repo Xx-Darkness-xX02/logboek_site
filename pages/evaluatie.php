@@ -30,6 +30,15 @@ include_once "header.php";
         eerder had moeten vragen en niet had moeten afwachten. Verder vondt ik mijn functioneren prima. Ik deed wat mij
         gevraagd werdt en maakte het ook af. </p>
     </div>
+
+    <div id="persoonlijke_winst">
+        <h1>Persoonlijke winst</h1>
+        <p>Mijn belangrijkste persoonlijke winst is dat ik nu weet hoe een het bedrijfsleven inelkaar steekt. Ik
+            heb geleerd dat je veel met collega's bezig bent. Voor mij was het een leerzame stage. Maar ik ben er wel
+            achter gekomen dat een 9 tot 5 kantoor baan niet voor mij is weggelegd. Dit komt omdat het lange werktijden
+            zijn en vaak hetzelfde is zonder afwisseling. Ondanks dit was mijn stage niet minder leuk. Ook heb ik veel
+            nieuwe mensen leren kennen en kon ik tijdens mijn stage altijd een praatje met hun houden.</p>
+    </div>
 </main>
 
 <?php

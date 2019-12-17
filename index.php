@@ -50,5 +50,6 @@ require_once "header.php";
                 op stage goed geholpen en mij ook de kans gegeven om nieuwe talen en technieken toe
                 te passen op leuke opdrachtjes.</p>
         </div>
+
     </main>
 </body>
