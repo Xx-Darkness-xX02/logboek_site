@@ -23,9 +23,12 @@ include_once "header.php";
             geleerd heb. <strong>Voor een opsomming of een minder lange uitleg ga dan naar de projecten pagina.</strong></p>
     </div>
 
-    <div id="Functioneren">
+    <div id="functioneren">
         <h1>Functioneren</h1>
-        <p></p>
+        <p>Ik 720 uur stage lopen. Aan het begin vondt ik soms lastig om elke dag van half 9 tot 5 mijn concentratie er
+        bij te houden. Na een paar weken ging dit al wel een stukje beter. Verder vondt ik dat als ik vragen had het
+        eerder had moeten vragen en niet had moeten afwachten. Verder vondt ik mijn functioneren prima. Ik deed wat mij
+        gevraagd werdt en maakte het ook af. </p>
     </div>
 </main>
 

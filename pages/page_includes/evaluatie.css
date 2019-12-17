@@ -26,10 +26,22 @@ div#intro h1 {
 }
 
 div#bereikte_leerdoelen {
-    margin-bottom: 60px;
     padding: 15px;
     color: white;
     background-color: var(--darker_grey);
     font-family: 'montserrat', sans-serif;
     line-height: 1.6;
+}
+
+div#functioneren {
+    background-color: var(--orange);
+    font-family: 'montserrat', sans-serif;
+    line-height: 1.6;
+    color: white;
+    padding: 15px;
+    margin-bottom: 60px;
+}
+
+div#functioneren h1 {
+    margin-top: 0;
 }
