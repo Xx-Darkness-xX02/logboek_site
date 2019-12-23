@@ -61,6 +61,16 @@ include_once "header.php";
         <!-- naar boven knop -->
     </div>
 
+    <div id="rol">
+        <h1>Rol Stage</h1>
+        <p>Ik werkte tijdens mijn stage op de afdeling ICT. Ik zat hier met 2 andere collega's, mijn rol bestond veel uit
+        onderhoud aan websites van externe klanten. Ook kreeg ik soms een grotere opdracht, waar ik dan ook langer mee
+        bezig was. Het onderhoud aan websites was vaak snel klaar omdat het met wordpress was. Verder waren mijn taken
+        het helpen van andere collega's in het bedrijf die problemen met hun computer hadden of soms een computer klaar
+        maken voor gebruik. Verder waren het soms ook nog wat taken om mee te helpen in het bedrijf omdat sommige
+        collega's niet altijd tijd hadden om dat te doen.</p>
+    </div>
+
 </main>
 
 <?php
@@ -84,7 +94,4 @@ include_once "navigation.php";
     }
 </script>
 
-
-<!-- maak een knop die een andere inhoud laat tonen in de div-->
-<!-- in die moet komen te staan wat je allemaal heb gedaan en wat je ervan hebt geleerd -->
 

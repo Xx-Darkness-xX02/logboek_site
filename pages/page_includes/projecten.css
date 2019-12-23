@@ -50,7 +50,6 @@ div#div_een button, div#div_twee button {
     font-size: 20px;
     height: 30px;
     width: 90px;
-    margin-bottom: 60px;
     border-radius: 5px;
 }
 
@@ -66,4 +65,13 @@ label.naar_boven {
 
 label.naar_boven:hover {
     color: var(--light_grey);
+}
+
+div#rol {
+    background-color: var(--orange);
+    color: white;
+    padding: 15px;
+    font-family: 'montserrat', sans-serif;
+    line-height: 1.6;
+    margin-bottom: 60px;
 }

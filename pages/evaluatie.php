@@ -39,6 +39,13 @@ include_once "header.php";
             zijn en vaak hetzelfde is zonder afwisseling. Ondanks dit was mijn stage niet minder leuk. Ook heb ik veel
             nieuwe mensen leren kennen en kon ik tijdens mijn stage altijd een praatje met hun houden.</p>
     </div>
+
+    <div id="begeleiding">
+        <h1>Begeleiding</h1>
+        <p>Tijdens mijn stage had ik goede begeleiding van collega's en mijn praktijkbegeleider. Ze Lieten mij leuke
+        opdrachten doen. De opdrachten waren leuk en afwisselend. Ook gaven ze mij de tijd en ruimte om te oefenen met
+        programmeren. Ik vondt de begeleiding naar mijn mening erg goed.</p>
+    </div>
 </main>
 
 <?php
