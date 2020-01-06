@@ -1,0 +1,28 @@
+@media all and (min-width: 768px){
+    main {
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    div#mobile_navigation {
+        display: none;
+    }
+
+    div#leerdoelen {
+        margin-bottom: 0 !important;
+    }
+
+    div#image_holder img {
+        height: 200px;
+    }
+
+    div#blokjes {
+        height: auto !important;
+    }
+
+    div#blokjes i {
+    width: 100% !important;
+        margin-bottom: 2px !important;
+    }
+}

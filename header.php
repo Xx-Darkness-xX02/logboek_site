@@ -6,7 +6,9 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="hoofd_desktop_includes/index_desktop.css">
     <link rel="stylesheet" href="hoofd_includes/header.css">
+    <link rel="stylesheet" href="hoofd_tablet_includes/tablet_index.css">
     <script type="text/javascript" src="hoofd_includes/header.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
           integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
@@ -28,6 +30,7 @@
         <a href="pages/gegevens.php">Gegevens</a>
         <a href="pages/stage.php">Stage Info</a>
         <a href="pages/evaluatie.php">evaluatie</a>
+        <a href="pages/Organogram.php">Organogram</a>
     </div> <!-- einde content -->
 
 </div><!-- einde overlay -->

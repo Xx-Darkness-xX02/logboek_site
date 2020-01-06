@@ -19,12 +19,6 @@ require_once "header.php";
             <a href="pages/stage.php"> <i class="fas fa-building geen_margin"></i> </a>
         </div>
 
-        <div id="mobile_navigation" >
-            <div class="hamburger_navigation navigation_icon" onclick="openNav()"><i class="fas fa-bars"></i></div>
-            <div class="home_navigation navigation_icon"><i class="fas fa-home"></i></div>
-            <div class="previous_navigation navigation_icon" onclick="go_back()"><i class="fas fa-undo-alt"></i></div>
-        </div>
-
         <div id="image_holder">
             <img src="hoofd_img/dca.jpg" alt="dca groep">
             <p class="image_caption">DCA Middendreef 281</p>
@@ -49,6 +43,12 @@ require_once "header.php";
                 en na een aantal weken had ik mijn eerste opdracht al af. Ook hebben mijn collega's
                 op stage goed geholpen en mij ook de kans gegeven om nieuwe talen en technieken toe
                 te passen op leuke opdrachtjes.</p>
+        </div>
+
+        <div id="mobile_navigation" >
+            <div class="hamburger_navigation navigation_icon" onclick="openNav()"><i class="fas fa-bars"></i></div>
+            <div class="home_navigation navigation_icon"><i class="fas fa-home"></i></div>
+            <div class="previous_navigation navigation_icon" onclick="go_back()"><i class="fas fa-undo-alt"></i></div>
         </div>
 
     </main>

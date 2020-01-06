@@ -73,5 +73,13 @@ div#rol {
     padding: 15px;
     font-family: 'montserrat', sans-serif;
     line-height: 1.6;
+}
+
+div#projecten {
     margin-bottom: 60px;
+    font-family: 'montserrat', sans-serif;
+    line-height: 1.6;
+    background-color: var(--darker_grey);
+    color: white;
+    padding: 15px;
 }

@@ -71,6 +71,15 @@ include_once "header.php";
         collega's niet altijd tijd hadden om dat te doen.</p>
     </div>
 
+    <div id="projecten">
+        <h1>Plaats afdeling in organisatie</h1>
+        <p>Op de afdeling waar ik werkte werden alleen ict taken uitgevoerd. De afdeling ict is erg belangrijk omdat als
+        er problemen zijn dit meteen opgelost moet worden. Ook heeft iedereen in dit bedrijf een eigen computer die ook
+        eventuele problemen kunnen krijgen, de werknemers op de ict afdeling lossen dit dan op. Ook moet de website
+        up to date zijn en hiervoor heb je ict'ers nodig. Ook worden vaak de technise opdrachten uitgevoerd door de
+        werknemers op de ict afdeling.</p>
+    </div>
+
 </main>
 
 <?php

@@ -6,6 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="page_includes/Organogram.css">
     <link rel="stylesheet" href="page_includes/header.css">
     <link rel="stylesheet" href="page_includes/evaluatie.css">
     <script type="text/javascript" src="page_includes/gegevens.js"></script>
@@ -31,6 +32,7 @@
         <a href="gegevens.php">Gegevens</a>
         <a href="stage.php">Stage Info</a>
         <a href="evaluatie.php">evaluatie</a>
+        <a href="Organogram.php">Organogram</a>
     </div> <!-- einde content -->
 
 </div><!-- einde overlay -->
