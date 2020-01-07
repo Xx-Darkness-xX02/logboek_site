@@ -34,12 +34,12 @@ include_once "header.php";
 
         <div id="stage_producten" style="margin-bottom: 60px;">
             <h1>Producten van DCA</h1>
-            <p>DCA is een samenstelling van afdelingen die samen DCA maken. Zo maakt dit bdrijf websites voor externe
+            <p>DCA is een samenstelling van afdelingen die samen DCA maken. Zo maakt dit bedrijf websites voor externe
                 klanten.
                 Bijvoorbeeld <a href="https://www.farmersfunding.nl/">Farmersfunding</a>. Ook heeft DCA een eigen
                 website,
                 <a href="https://www.boerenbusiness.nl/">Boerenbusinss</a>. Deze website wordt onderhouden door heel
-                DCA. ht doel van
+                DCA. Het doel van
                 deze website is het informeren van boeren. Je kan een abbonement aanvragen waarmee je inzicht krijgt in
                 de actuele
                 marktprijzen. Ook is er een afdeling die nieuwsartikelen maken voor de boerenbusiness website. De

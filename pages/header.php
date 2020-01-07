@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="page_includes/Organogram.css">
     <link rel="stylesheet" href="page_includes/header.css">
     <link rel="stylesheet" href="page_includes/evaluatie.css">
+    <link rel="stylesheet" href="page_desktop_includes/projecten_desktop.css">
+    <link rel="stylesheet" href="page_desktop_includes/evaluatie_desktop.css">
+    <link rel="stylesheet" href="page_desktop_includes/gegevens_desktop.css">
+    <link rel="stylesheet" href="page_desktop_includes/organogram_desktop.css">
     <script type="text/javascript" src="page_includes/gegevens.js"></script>
     <script type="text/javascript" src="page_includes/projecten.js"></script>
     <script type="text/javascript" src="page_includes/header.js"></script>
